@@ -1,0 +1,104 @@
+#welcomeWrapper {
+    outline: 2px solid #000;
+    margin: 2rem auto;
+    width: 60%;
+    border-radius: 1.5rem;
+    border-top: 1.5rem solid #00bbf0;
+    padding: 1rem 3rem;
+    text-align: center;
+}
+
+#welcomeWrapper h2 {
+    font-weight: bolder;
+    margin-top: 1rem;
+}
+
+#welcomeWrapper img {
+    width: 50%;
+    margin: 2rem 0px;
+}
+
+#welcomeWrapper #welcomeMsg {
+    margin-top: 0.5rem;
+}
+
+#contactHR {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+#waveImage {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#hrCards {
+    margin-top: 0;
+    background-color: #00204a;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+    /* background-color: url('../../public/images/f15f83c591d197b2a47f1203ab91395a.png');
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat; */
+}
+
+#hrCards .card {
+    display: inline-block;
+    width: 80%;
+    max-width: 30rem;
+    text-align: center;
+    background-color: #014db0;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    padding-bottom: 2rem;
+}
+
+#hrCards .card img {
+    width: 10rem;
+    margin: 2rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#hrCards .card .cardHeading {
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+#hrCards .card a {
+    color: #fff;
+}
+
+#hrCards .card .contactDetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#hrCards .card .contactDetails .headings {
+    text-align: right;
+}
+
+#hrCards .card .contactDetails .values {
+    text-align: left;
+    text-overflow: ellipsis;
+}
+
+#hrCards .card .emailBtn {
+    background-color: #00bbf0;
+    border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+    padding-top: 0.3rem;
+}

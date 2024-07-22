@@ -1,0 +1,92 @@
+#startup {
+    background-color: #00204a;
+    color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 0.1rem;
+}
+
+#startup h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#startup .highlighter {
+    color: #00bbf0;
+}
+
+#startup #image {
+    text-align: center;
+    margin: 2rem;
+}
+
+#startup #headingCaption {
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #cbcbcb;
+    margin-bottom: 2rem;
+}
+
+#headingStartup {
+    margin-top: 1rem;
+    background-color: #00204a;
+    color: #fff;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#facilitySection {
+    text-align: center;
+    padding: 1rem;
+}
+
+#facilitySection .facilityHeading {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+#facilitySection .facilityBody {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#facilitySection .facilityBody .facilityCard {
+    background-color: #cbcbcb;
+    min-width: 20rem;
+    width: 30%;
+    padding: 1rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    margin: 1rem;
+}
+
+#facilitySection .image {
+    background-color: #818181;
+    width: 10rem;
+    height: 10rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#facilitySection .facilityCardHeading {
+    font-size: 1.5rem;
+}
+
+#facilitySection .facilityCardBody {
+    text-align: justify;
+    padding: 0 1rem;
+}

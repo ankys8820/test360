@@ -1,0 +1,114 @@
+/* Default styles */
+
+/* Heading styles */
+.heading_center {
+    text-align: center;
+}
+
+.heading_container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.heading_container h2 span {
+    color: #007bff; /* Adjust color as needed */
+}
+
+/* Box styles */
+.why_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem; /* Adjust gap between boxes */
+    margin-bottom: 2rem;
+}
+
+.box {
+    flex: 1 1 300px; /* Adjust width of boxes */
+    max-width: 300px; /* Maximum width of each box */
+    background-color: #f8f9fa; /* Background color for boxes */
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for boxes */
+    margin-bottom: 2rem;
+}
+
+.img-box {
+    display: relative;
+}
+
+.img-box img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.detail-box {
+    background-color: #fff; /* Background color for details */
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: -1.5rem; /* Adjust margin to overlap image */
+    z-index: 1;
+    text-align: center;
+}
+
+.detail-box h5 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.detail-box p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    text-align: center ;
+}
+
+.btn-box {
+    text-align: center;
+}
+
+.btn-box a {
+    display: inline-block;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-box a:hover {
+    background-color: #0056b3; /* Button background color on hover */
+}
+
+/* Media queries for responsiveness */
+
+@media (max-width: 768px) {
+    .why_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .heading_container h2 {
+        font-size: 2rem;
+    }
+
+    .detail-box {
+        margin-top: -1rem;
+    }
+
+    .btn-box a {
+        padding: 0.6rem 1.2rem;
+    }
+}
